@@ -35,7 +35,7 @@ $ cd villains && yarn build-image && cd ../
 ```bash
 $ # tag the images created in step 1
 $ docker tag heroes jasondippel/node-heroes-app:latest
-$ docker tag heroes jasondippel/node-villains-app:latest
+$ docker tag villains jasondippel/node-villains-app:latest
 $ # log in to docker with your docker id
 $ docker login
 $ # push the image to docker hub
